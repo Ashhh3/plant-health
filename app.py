@@ -122,4 +122,4 @@ def contact():
 #2. to create main function
 if __name__=='__main__':
     # running server
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
